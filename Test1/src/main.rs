@@ -1,20 +1,10 @@
-// Static
+mod modules;
 
-mod static_mod {
-    // Public instance of mod
-    pub mod api {
-        // Public const function
-        pub const fn test() -> i32 {
-            return 5;
-        }
-    }
-}
+pub(crate) mod static_mod {}
 
-// Fuse said mod public function to a usable/callable state.
-use crate::static_mod::api::test;
-
-pub(crate) fn main() {
-    const RESULT: i32 = test();
+fn main() {
+    const RESULT: f64 = modules::base::api::value_of_pi();
     println!("{RESULT}");
+
     return;
 }
