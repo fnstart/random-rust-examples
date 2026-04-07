@@ -18,7 +18,6 @@ Tool for testing: https://insomnia.rest/
 ```
 > send GET - retrieves data from the database.
 ```
-RESULT:
 [
 	{
 		"id": 1,
