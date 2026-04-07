@@ -5,7 +5,7 @@ Tool for testing: https://insomnia.rest/
 
 # Websocket Test
 - WS_URL: ws://localhost:8080/api/ws
-> Open Insomnia > Scratch Pad > Press add (+) besides filter > WebSocket Request
+> Open Insomnia > Scratch Pad > Press add (+) right beside filter > WebSocket Request
 
 # User Endpoint Test
   - URL (GET/POST): localhost:8080/api/users
